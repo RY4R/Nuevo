@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml:stylesheet href="periodico.xsl" type="text/xsl"?>
+<html>
+
+<head>
+    <META http-equiv="Content-Type" content="text/html; charset=UTF-16">
+    <link rel="shortcut icon" href="logo.png">
+    <title>STIMES</title>
+    <link rel="stylesheet" href="periodicoestilos.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="tema_lengua">
+            <h1>
+                <center><img src="Slogo.png"></center>
+                <center> TIMES</center>
+
+            </h1>
+        </div>
+        <center>
+            <h3>
+                <div id="current_date"></div>
+            </h3>
+        </center>
+
+        <script>
+            date = new Date();
+            year = date.getFullYear();
+            month = date.getMonth() + 1;
+            day = date.getDate();
+            document.getElementById("current_date").innerHTML = day + "/" + month + "/" + year;
+        </script>
+        <nav>
+            <h2>
+                <center><a href="#actualidad">
+                        <tr><b>ㅤActualidadㅤㅤㅤㅤ</b></tr>
+                    </a><a href="#deportes">
+                        <tr><b>Deportesㅤㅤㅤㅤㅤ</b></tr>
+                    </a><a href="#ciencia">
+                        <tr><b>Cienciasㅤㅤㅤㅤㅤㅤ</b></tr>
+                    </a><a href="#videojuegos">
+                        <tr><b>Videojuegosㅤㅤㅤㅤㅤ</b></tr>
+                    </a><a href="#nft">
+                        <tr><b>NFTS</b></tr>
+                    </a></center>
+            </h2>
+            </center>
+        </nav>
+    </header><br>
+    <hr>
+    <aside>
+        <center>
+            <table>
+                <th><iframe id="ytplayer" type="text/html" width="340" height="350"
+                        src="http://www.youtube.com/embed/NPiCtM8cq9o?autoplay=1&mute=1&loop=1"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                </th>
+            </table>
+        </center>
+    </aside>
+    <section id="actualidad">Actualidad</section>
+    <p>ㅤ</p>
+    <center><b>Bajas Ucranianas</b></center>
+    <center>
+        <p>Fernando López</p>
+    </center><a
+        href="https://elpais.com/internacional/2022-03-13/rusia-lanza-ocho-misiles-contra-una-base-ucrania-a-25-kilometros-de-polonia.html">
+        <article>Un portavoz del Ejército ucranio señala que el ataque ha causado 35 muertos y 134 heridos,
+            mientras el ministro de Defensa asegura que en la instalación había “instructores extranjeros”</article>
+    </a>
+    <p>ㅤ</p>
+    <p>ㅤ</p>
+    <p>ㅤ</p>
+    <section id="deportes">Deportes</section>
+    <p>ㅤ</p>
+    <center><b>Alonso confiado</b></center>
+    <center>
+        <p>Enrique Motos</p>
+    </center><a
+        href="https://www.europapress.es/deportes/formula1-00312/noticia-alonso-vamos-llegar-mas-preparados-pensaba-20220312184930.html">
+        <article>Alonso: "Vamos a llegar más preparados de lo que pensaba"</article>
+    </a>
+    <p>ㅤ</p>
+    <p>ㅤ</p>
+    <p>ㅤ</p>
+    <section id="ciencia">Ciencia</section>
+    <p>ㅤ</p>
+    <center><b>Origen de las burbujas</b></center>
+    <center>
+        <p>Siso</p>
+    </center><a
+        href="https://www.abc.es/ciencia/abci-descubren-origen-enormes-burbujas-encima-y-debajo-centro-lactea-202203112030_noticia.html">
+        <article>Descubren el origen de las enormes burbujas por encima y por debajo del centro de la Vía Láctea
+        </article>
+    </a>
+    <p>ㅤ</p>
+    <p>ㅤ</p>
+    <p>ㅤ</p>
+    <section id="videojuegos">Videojuegos</section>
+    <p>ㅤ</p>
+    <center><b>Usuario crea GameCube portatil</b></center>
+    <center>
+        <p>Carlos</p>
+    </center><a href="https://as.com/meristation/2022/03/13/noticias/1647161585_583670.html">
+        <article>Así es la increíble GameCube portátil creada por un usuario</article>
+    </a>
+    <p>ㅤ</p>
+    <p>ㅤ</p>
+    <p>ㅤ</p>
+    <section id="nft">NFTS</section>
+    <p>ㅤ</p>
+    <center><b>NFTs: ¿quimera digital o realidad?</b></center>
+    <center>
+        <p>Pedro Gómez</p>
+    </center><a href="https://www.elconfidencial.com/economia/2022-02-09/nft-criptomonedas-blockchain_3371954/">
+        <article>¿Humo? ¿Nueva burbuja? ¿Moda pasajera?</article>
+    </a>
+    <p>ㅤ</p>
+    <p>ㅤ</p>
+    <p>ㅤ</p>
+    <hr>
+    <footer>
+        <table>
+            <tr><a href="periodicohtml.html"><b>ㅤㅤHomeㅤㅤㅤㅤㅤㅤㅤㅤ</b></a></tr>
+            <tr><a href="#actualidad"><b>Noticiasㅤㅤㅤㅤㅤㅤㅤㅤ</b></a></tr>
+            <tr><a href="mailto:Trabajoperiodico@gmail.com"><b>Contactanosㅤㅤㅤㅤㅤㅤㅤㅤ</b></a></tr>
+            <tr><a href="https://www.thegourmetjournal.com/info/"><b>Sobre nosotrosㅤ</b></a></tr>
+        </table>
+    </footer>
+</body>
+
+</html>
